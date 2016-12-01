@@ -16,7 +16,7 @@ public class QuizActivity extends AppCompatActivity {
     private TextView mQuestionTextView;
     private final int TOTAL=5;
     private int clicked=0;
-    private int correct=0;
+    private int correct=1;
 
     private Question[] mQuestionBank = new Question[] {
             new Question(R.string.question_1, true),
