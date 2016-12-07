@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LondonQuiz</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="next_button">Next quiz?</string>
+    <string name="prev_button">Back</string>
+    <string name="question_1">It is illegal to die in the Palace of Westminster.</string>
+    <string name="question_2">Big Ben\'s chime is in the key of C.</string>
+    <string name="question_3">More than half of the London Underground network
+        runs below ground.</string>
+    <string name="question_4">Only two Tube stations have all five vowels in their name:
+        South Ealing and Mansion House.</string>
+    <string name="question_5">Big Ben is the bell, not the clock tower.</string>
+    <string name="question_6">Q6</string>
+    <string name="question_7">Q7</string>
+    <string name="question_8">Q8</string>
+</resources>
