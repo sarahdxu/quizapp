@@ -32,6 +32,9 @@ public class Main3Activity extends AppCompatActivity {
                 Toast.makeText(Main3Activity.this,
                         R.string.correct_toast,
                         Toast.LENGTH_SHORT).show();
+                mTrueButton9.setTextColor(getResources().getColor(R.color.GREEN));
+                mTrueButton9.setEnabled(false);
+                mFalseButton9.setEnabled(false);
             }
         });
 
@@ -42,6 +45,9 @@ public class Main3Activity extends AppCompatActivity {
                 Toast.makeText(Main3Activity.this,
                         R.string.incorrect_toast,
                         Toast.LENGTH_SHORT).show();
+                mFalseButton9.setTextColor(getResources().getColor(R.color.RED));
+                mFalseButton9.setEnabled(false);
+                mTrueButton9.setEnabled(false);
             }
         });
 
@@ -52,6 +58,9 @@ public class Main3Activity extends AppCompatActivity {
                 Toast.makeText(Main3Activity.this,
                         R.string.correct_toast,
                         Toast.LENGTH_SHORT).show();
+                mTrueButton10.setTextColor(getResources().getColor(R.color.GREEN));
+                mTrueButton10.setEnabled(false);
+                mFalseButton10.setEnabled(false);
             }
         });
 
@@ -62,6 +71,9 @@ public class Main3Activity extends AppCompatActivity {
                 Toast.makeText(Main3Activity.this,
                         R.string.incorrect_toast,
                         Toast.LENGTH_SHORT).show();
+                mFalseButton10.setTextColor(getResources().getColor(R.color.RED));
+                mFalseButton10.setEnabled(false);
+                mTrueButton10.setEnabled(false);
             }
         });
 
@@ -72,6 +84,9 @@ public class Main3Activity extends AppCompatActivity {
                 Toast.makeText(Main3Activity.this,
                         R.string.correct_toast,
                         Toast.LENGTH_SHORT).show();
+                mTrueButton11.setTextColor(getResources().getColor(R.color.GREEN));
+                mTrueButton11.setEnabled(false);
+                mFalseButton11.setEnabled(false);
             }
         });
 
@@ -82,6 +97,9 @@ public class Main3Activity extends AppCompatActivity {
                 Toast.makeText(Main3Activity.this,
                         R.string.incorrect_toast,
                         Toast.LENGTH_SHORT).show();
+                mFalseButton11.setTextColor(getResources().getColor(R.color.RED));
+                mFalseButton11.setEnabled(false);
+                mTrueButton11.setEnabled(false);
             }
         });
 
@@ -92,6 +110,9 @@ public class Main3Activity extends AppCompatActivity {
                 Toast.makeText(Main3Activity.this,
                         R.string.correct_toast,
                         Toast.LENGTH_SHORT).show();
+                mTrueButton12.setTextColor(getResources().getColor(R.color.GREEN));
+                mTrueButton12.setEnabled(false);
+                mFalseButton12.setEnabled(false);
             }
         });
 
@@ -102,6 +123,9 @@ public class Main3Activity extends AppCompatActivity {
                 Toast.makeText(Main3Activity.this,
                         R.string.incorrect_toast,
                         Toast.LENGTH_SHORT).show();
+                mFalseButton12.setTextColor(getResources().getColor(R.color.RED));
+                mFalseButton12.setEnabled(false);
+                mTrueButton12.setEnabled(false);
             }
         });
 
