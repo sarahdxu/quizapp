@@ -28,6 +28,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
+        <Button
+            android:id="@+id/cheat_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat" />
 
     </LinearLayout>
 
@@ -55,6 +60,11 @@
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
 
+        <Button
+            android:id="@+id/cheat_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat" />
     </LinearLayout>
 
     <TextView
@@ -79,6 +89,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
+        <Button
+            android:id="@+id/cheat_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat" />
+
 
     </LinearLayout>
 
@@ -104,14 +120,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
+        <Button
+            android:id="@+id/cheat_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat" />
+
+    </LinearLayout>
+
     <TextView
         android:id="@+id/score4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
         />
-    </LinearLayout>
-
 
 
 
