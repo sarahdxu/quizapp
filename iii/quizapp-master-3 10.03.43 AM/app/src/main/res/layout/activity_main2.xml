@@ -113,6 +113,12 @@
         android:text="@string/next_button"
         android:onClick="Main3Activity"/>
 
+    <TextView
+        android:id="@+id/score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        />
 
 
 </LinearLayout>
