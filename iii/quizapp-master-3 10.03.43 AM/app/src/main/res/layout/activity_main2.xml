@@ -34,6 +34,12 @@
             android:layout_height="wrap_content"
             android:text="@string/cheat" />
 
+        <Button
+            android:id="@+id/skip_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip" />
+
     </LinearLayout>
 
 
@@ -64,6 +70,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cheat" />
+        <Button
+            android:id="@+id/skip_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip" />
 
     </LinearLayout>
 
@@ -94,6 +105,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cheat" />
+        <Button
+            android:id="@+id/skip_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip" />
 
     </LinearLayout>
 
@@ -124,6 +140,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cheat" />
+        <Button
+            android:id="@+id/skip_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip" />
 
     </LinearLayout>
 
