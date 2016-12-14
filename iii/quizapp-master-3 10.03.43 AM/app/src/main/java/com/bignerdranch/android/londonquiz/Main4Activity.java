@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Intent;
+int score4 = 0;
 
 public class Main4Activity extends AppCompatActivity {
 
@@ -34,6 +35,8 @@ public class Main4Activity extends AppCompatActivity {
                 mTrueButton13.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton13.setEnabled(false);
                 mFalseButton13.setEnabled(false);
+                score4++;
+                display(score4);
             }
         });
 
@@ -60,6 +63,8 @@ public class Main4Activity extends AppCompatActivity {
                 mFalseButton14.setTextColor(getResources().getColor(R.color.GREEN));
                 mFalseButton14.setEnabled(false);
                 mTrueButton14.setEnabled(false);
+                score4++;
+                display(score4);
             }
         });
 
@@ -86,6 +91,8 @@ public class Main4Activity extends AppCompatActivity {
                 mTrueButton15.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton15.setEnabled(false);
                 mFalseButton15.setEnabled(false);
+                score4++;
+                display(score4);
             }
         });
 
@@ -112,6 +119,8 @@ public class Main4Activity extends AppCompatActivity {
                 mTrueButton16.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton16.setEnabled(false);
                 mFalseButton16.setEnabled(false);
+                score4++;
+                display(score4);
             }
         });
 
@@ -129,5 +138,9 @@ public class Main4Activity extends AppCompatActivity {
         });
 
 
+    }
+    private void display(int score) {
+        TextView scoreView=(TextView) findViewById(R.id.score4);
+        scoreView.setText(String.valueOf("Your score: "+score4));
     }
 }
