@@ -30,6 +30,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cheat" />
+        <Button
+            android:id="@+id/skip_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip" />
 
 
     </LinearLayout>
@@ -58,6 +63,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cheat" />
+        <Button
+            android:id="@+id/skip_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip" />
     </LinearLayout>
 
     <TextView
@@ -84,6 +94,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cheat" />
+        <Button
+            android:id="@+id/skip_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip" />
     </LinearLayout>
 
     <TextView
@@ -110,6 +125,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cheat" />
+        <Button
+            android:id="@+id/skip_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip" />
     </LinearLayout>
 
     <Button
@@ -125,3 +145,4 @@
         android:padding="5dp"
         />
 </LinearLayout>
+
