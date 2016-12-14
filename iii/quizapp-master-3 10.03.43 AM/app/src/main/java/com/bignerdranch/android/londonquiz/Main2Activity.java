@@ -19,6 +19,7 @@ public class Main2Activity extends AppCompatActivity {
     private Button mTrueButton8;
     private Button mFalseButton8;
     private Button mNextButton;
+    int score2 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,8 @@ public class Main2Activity extends AppCompatActivity {
                 mTrueButton5.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton5.setEnabled(false);
                 mFalseButton5.setEnabled(false);
+                score2++;
+                display(score2);
             }
         });
 
@@ -61,6 +64,8 @@ public class Main2Activity extends AppCompatActivity {
                 mTrueButton6.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton6.setEnabled(false);
                 mFalseButton6.setEnabled(false);
+                score2++;
+                display(score2);
             }
         });
 
@@ -87,6 +92,8 @@ public class Main2Activity extends AppCompatActivity {
                 mFalseButton7.setTextColor(getResources().getColor(R.color.GREEN));
                 mFalseButton7.setEnabled(false);
                 mTrueButton7.setEnabled(false);
+                score2++;
+                display(score2);
             }
         });
 
@@ -113,6 +120,8 @@ public class Main2Activity extends AppCompatActivity {
                 mTrueButton8.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton8.setEnabled(false);
                 mFalseButton8.setEnabled(false);
+                score2++;
+                display(score2);
             }
         });
 
@@ -139,6 +148,10 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
 
+    }
+     private void display(int score) {
+        TextView scoreView=(TextView) findViewById(R.id.score2);
+        scoreView.setText(String.valueOf("Your score: "+score2));
     }
 }
 
