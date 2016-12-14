@@ -25,7 +25,7 @@ public class StartActivity extends AppCompatActivity {
             public void onClick(View view) {
                 mEdit = (EditText)findViewById(R.id.editText1);
                 mText = (TextView)findViewById(R.id.textView1);
-                mText.setText("Welcome "+mEdit.getText().toString()+"!");
+                mText.setText("Welcome "+mEdit.getText().toString()+"! Click Start to begin your London quiz.");
             }
         });
 
