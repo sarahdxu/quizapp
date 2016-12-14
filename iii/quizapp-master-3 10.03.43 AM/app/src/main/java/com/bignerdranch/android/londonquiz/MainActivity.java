@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
     private Button mTrueButton4;
     private Button mFalseButton4;
     private Button mNextButton;
+    private Button mCheatButton1;
+    private Button mCheatButton2;
+    private Button mCheatButton3;
+    private Button mCheatButton4;
     int score = 0;
 
     @Override
@@ -36,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 mTrueButton1.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton1.setEnabled(false);
                 mFalseButton1.setEnabled(false);
+                mCheatButton1.setEnabled(false);
                 score++;
                 display(score);
             }
@@ -50,6 +55,25 @@ public class MainActivity extends AppCompatActivity {
                 mFalseButton1.setTextColor(getResources().getColor(R.color.RED));
                 mFalseButton1.setEnabled(false);
                 mTrueButton1.setEnabled(false);
+                mCheatButton1.setEnabled(false);
+                score=score+0;
+                display(score);
+            }
+        });
+
+        mCheatButton1 = (Button) findViewById(R.id.cheat_1);
+        mCheatButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,
+                        R.string.cheat_toast,
+                        Toast.LENGTH_SHORT).show();
+                mTrueButton1.setTextColor(getResources().getColor(R.color.PURPLE));
+                mTrueButton1.setEnabled(false);
+                mFalseButton1.setEnabled(false);
+                mCheatButton1.setEnabled(false);
+                score=score+0;
+                display(score);
             }
         });
 
@@ -63,6 +87,9 @@ public class MainActivity extends AppCompatActivity {
                 mTrueButton2.setTextColor(getResources().getColor(R.color.RED));
                 mTrueButton2.setEnabled(false);
                 mFalseButton2.setEnabled(false);
+                mCheatButton2.setEnabled(false);
+                score=score+0;
+                display(score);
             }
         });
 
@@ -76,7 +103,23 @@ public class MainActivity extends AppCompatActivity {
                 mFalseButton2.setTextColor(getResources().getColor(R.color.GREEN));
                 mFalseButton2.setEnabled(false);
                 mTrueButton2.setEnabled(false);
+                mCheatButton2.setEnabled(false);
                 score++;
+                display(score);
+            }
+        });
+        mCheatButton2 = (Button) findViewById(R.id.cheat_2);
+        mCheatButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,
+                        R.string.cheat_toast,
+                        Toast.LENGTH_SHORT).show();
+                mFalseButton2.setTextColor(getResources().getColor(R.color.PURPLE));
+                mTrueButton2.setEnabled(false);
+                mFalseButton2.setEnabled(false);
+                mCheatButton2.setEnabled(false);
+                score=score+0;
                 display(score);
             }
         });
@@ -91,6 +134,9 @@ public class MainActivity extends AppCompatActivity {
                 mTrueButton3.setTextColor(getResources().getColor(R.color.RED));
                 mTrueButton3.setEnabled(false);
                 mFalseButton3.setEnabled(false);
+                mCheatButton3.setEnabled(false);
+                score=score+0;
+                display(score);
             }
         });
 
@@ -104,7 +150,23 @@ public class MainActivity extends AppCompatActivity {
                 mFalseButton3.setTextColor(getResources().getColor(R.color.GREEN));
                 mFalseButton3.setEnabled(false);
                 mTrueButton3.setEnabled(false);
+                mCheatButton3.setEnabled(false);
                 score++;
+                display(score);
+            }
+        });
+        mCheatButton3 = (Button) findViewById(R.id.cheat_3);
+        mCheatButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,
+                        R.string.cheat_toast,
+                        Toast.LENGTH_SHORT).show();
+                mFalseButton3.setTextColor(getResources().getColor(R.color.PURPLE));
+                mTrueButton3.setEnabled(false);
+                mFalseButton3.setEnabled(false);
+                mCheatButton3.setEnabled(false);
+                score=score+0;
                 display(score);
             }
         });
@@ -119,6 +181,7 @@ public class MainActivity extends AppCompatActivity {
                 mTrueButton4.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton4.setEnabled(false);
                 mFalseButton4.setEnabled(false);
+                mCheatButton4.setEnabled(false);
                 score++;
                 display(score);
             }
@@ -134,6 +197,25 @@ public class MainActivity extends AppCompatActivity {
                 mFalseButton4.setTextColor(getResources().getColor(R.color.RED));
                 mFalseButton4.setEnabled(false);
                 mTrueButton4.setEnabled(false);
+                mCheatButton4.setEnabled(false);
+                score=score+0;
+                display(score);
+            }
+        });
+
+        mCheatButton4 = (Button) findViewById(R.id.cheat_4);
+        mCheatButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,
+                        R.string.cheat_toast,
+                        Toast.LENGTH_SHORT).show();
+                mTrueButton4.setTextColor(getResources().getColor(R.color.PURPLE));
+                mTrueButton4.setEnabled(false);
+                mFalseButton4.setEnabled(false);
+                mCheatButton4.setEnabled(false);
+                score=score+0;
+                display(score);
             }
         });
 
