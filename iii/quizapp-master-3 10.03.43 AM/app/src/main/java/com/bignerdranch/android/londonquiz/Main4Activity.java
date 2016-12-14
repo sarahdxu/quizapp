@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Intent;
-int score4 = 0;
+
 
 public class Main4Activity extends AppCompatActivity {
 
@@ -19,6 +19,7 @@ public class Main4Activity extends AppCompatActivity {
     private Button mFalseButton15;
     private Button mTrueButton16;
     private Button mFalseButton16;
+    int score4 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
