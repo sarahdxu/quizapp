@@ -25,28 +25,28 @@ public class Main3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        mTrueButton9 = (Button) findViewById(R.id.true_button9);
-        mTrueButton9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(Main3Activity.this,
-                        R.string.correct_toast,
-                        Toast.LENGTH_SHORT).show();
-                mTrueButton9.setTextColor(getResources().getColor(R.color.GREEN));
-                mTrueButton9.setEnabled(false);
-                mFalseButton9.setEnabled(false);
-            }
-        });
-
         mFalseButton9 = (Button) findViewById(R.id.false_button9);
         mFalseButton9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Main3Activity.this,
+                        R.string.correct_toast,
+                        Toast.LENGTH_SHORT).show();
+                mFalseButton9.setTextColor(getResources().getColor(R.color.GREEN));
+                mFalseButton9.setEnabled(false);
+                mFalseButton9.setEnabled(false);
+            }
+        });
+
+        mTrueButton9 = (Button) findViewById(R.id.true_button9);
+        mTrueButton9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Main3Activity.this,
                         R.string.incorrect_toast,
                         Toast.LENGTH_SHORT).show();
-                mFalseButton9.setTextColor(getResources().getColor(R.color.RED));
-                mFalseButton9.setEnabled(false);
+                mTrueButton9.setTextColor(getResources().getColor(R.color.RED));
+                mTrueButton9.setEnabled(false);
                 mTrueButton9.setEnabled(false);
             }
         });
@@ -77,42 +77,29 @@ public class Main3Activity extends AppCompatActivity {
             }
         });
 
-        mTrueButton11 = (Button) findViewById(R.id.true_button11);
-        mTrueButton11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(Main3Activity.this,
-                        R.string.correct_toast,
-                        Toast.LENGTH_SHORT).show();
-                mTrueButton11.setTextColor(getResources().getColor(R.color.GREEN));
-                mTrueButton11.setEnabled(false);
-                mFalseButton11.setEnabled(false);
-            }
-        });
-
         mFalseButton11 = (Button) findViewById(R.id.false_button11);
         mFalseButton11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Main3Activity.this,
-                        R.string.incorrect_toast,
+                        R.string.correct_toast,
                         Toast.LENGTH_SHORT).show();
-                mFalseButton11.setTextColor(getResources().getColor(R.color.RED));
+                mFalseButton11.setTextColor(getResources().getColor(R.color.GREEN));
                 mFalseButton11.setEnabled(false);
                 mTrueButton11.setEnabled(false);
             }
         });
 
-        mTrueButton12 = (Button) findViewById(R.id.true_button12);
-        mTrueButton12.setOnClickListener(new View.OnClickListener() {
+        mTrueButton11 = (Button) findViewById(R.id.true_button11);
+        mTrueButton11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Main3Activity.this,
-                        R.string.correct_toast,
+                        R.string.incorrect_toast,
                         Toast.LENGTH_SHORT).show();
-                mTrueButton12.setTextColor(getResources().getColor(R.color.GREEN));
-                mTrueButton12.setEnabled(false);
-                mFalseButton12.setEnabled(false);
+                mTrueButton11.setTextColor(getResources().getColor(R.color.RED));
+                mTrueButton11.setEnabled(false);
+                mFalseButton11.setEnabled(false);
             }
         });
 
@@ -121,11 +108,24 @@ public class Main3Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Main3Activity.this,
+                        R.string.correct_toast,
+                        Toast.LENGTH_SHORT).show();
+                mFalseButton12.setTextColor(getResources().getColor(R.color.GREEN));
+                mFalseButton12.setEnabled(false);
+                mFalseButton12.setEnabled(false);
+            }
+        });
+
+        mTrueButton12 = (Button) findViewById(R.id.true_button12);
+        mTrueButton12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Main3Activity.this,
                         R.string.incorrect_toast,
                         Toast.LENGTH_SHORT).show();
-                mFalseButton12.setTextColor(getResources().getColor(R.color.RED));
-                mFalseButton12.setEnabled(false);
+                mTrueButton12.setTextColor(getResources().getColor(R.color.RED));
                 mTrueButton12.setEnabled(false);
+                mFalseButton12.setEnabled(false);
             }
         });
 
@@ -140,5 +140,7 @@ public class Main3Activity extends AppCompatActivity {
 
     }
 }
+
+
 
 
