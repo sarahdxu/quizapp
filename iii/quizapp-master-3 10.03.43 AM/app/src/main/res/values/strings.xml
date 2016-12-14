@@ -2,8 +2,15 @@
     <string name="app_name">LondonQuiz</string>
     <string name="login">Enter your name to start: </string>
     <string name="sub">Submit</string>
+    <string name="skip">Skip</string>
+    <string name="instructions">There will be 4 questions per quiz. If you guess correctly,
+        you will earn one point. If you guess incorrectly you will lose one point. You can only
+    skip once per quiz, and will earn zero points. You can only cheat once per quiz, and will also
+    earn zero points. If you would like to continue taking quizzes, just press the "Next quiz" button. If not, you can simply exit the app.</string>
     <string name="true_button">True</string>
+    <string name="gotit_button">Got it!</string>
     <string name="false_button">False</string>
+    <string name="skip_toast">Skip</string>
     <string name="cheat">Cheat</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
