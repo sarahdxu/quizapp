@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 import android.content.Intent;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mTrueButton4;
     private Button mFalseButton4;
     private Button mNextButton;
+    int score = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 mTrueButton1.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton1.setEnabled(false);
                 mFalseButton1.setEnabled(false);
+                score++;
+                display(score);
             }
         });
         mFalseButton1 = (Button) findViewById(R.id.false_button1);
@@ -72,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
                 mFalseButton2.setTextColor(getResources().getColor(R.color.GREEN));
                 mFalseButton2.setEnabled(false);
                 mTrueButton2.setEnabled(false);
+                score++;
+                display(score);
             }
         });
 
@@ -98,6 +104,8 @@ public class MainActivity extends AppCompatActivity {
                 mFalseButton3.setTextColor(getResources().getColor(R.color.GREEN));
                 mFalseButton3.setEnabled(false);
                 mTrueButton3.setEnabled(false);
+                score++;
+                display(score);
             }
         });
 
@@ -111,6 +119,8 @@ public class MainActivity extends AppCompatActivity {
                 mTrueButton4.setTextColor(getResources().getColor(R.color.GREEN));
                 mTrueButton4.setEnabled(false);
                 mFalseButton4.setEnabled(false);
+                score++;
+                display(score);
             }
         });
 
@@ -135,5 +145,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+    private void display(int score) {
+        TextView scoreView=(TextView) findViewById(R.id.score);
+            scoreView.setText(String.valueOf("Your score: "+score));
     }
 }
