@@ -50,29 +50,29 @@ public class Main4Activity extends AppCompatActivity {
             }
         });
 
-        mTrueButton14 = (Button) findViewById(R.id.true_button14);
-        mTrueButton14.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(Main4Activity.this,
-                        R.string.correct_toast,
-                        Toast.LENGTH_SHORT).show();
-                mTrueButton14.setTextColor(getResources().getColor(R.color.GREEN));
-                mTrueButton14.setEnabled(false);
-                mFalseButton14.setEnabled(false);
-            }
-        });
-
         mFalseButton14 = (Button) findViewById(R.id.false_button14);
         mFalseButton14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Main4Activity.this,
-                        R.string.incorrect_toast,
+                        R.string.correct_toast,
                         Toast.LENGTH_SHORT).show();
-                mFalseButton14.setTextColor(getResources().getColor(R.color.RED));
+                mFalseButton14.setTextColor(getResources().getColor(R.color.GREEN));
                 mFalseButton14.setEnabled(false);
                 mTrueButton14.setEnabled(false);
+            }
+        });
+
+        mTrueButton14 = (Button) findViewById(R.id.true_button14);
+        mTrueButton14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Main4Activity.this,
+                        R.string.incorrect_toast,
+                        Toast.LENGTH_SHORT).show();
+                mTrueButton14.setTextColor(getResources().getColor(R.color.RED));
+                mTrueButton14.setEnabled(false);
+                mFalseButton14.setEnabled(false);
             }
         });
 
