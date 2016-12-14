@@ -22,6 +22,10 @@ public class Main3Activity extends AppCompatActivity {
     private Button mCheatButton10;
     private Button mCheatButton11;
     private Button mCheatButton12;
+    private Button mSkipButton9;
+    private Button mSkipButton10;
+    private Button mSkipButton11;
+    private Button mSkipButton12;
     private Button mNextButton;
     int score3 = 0;
 
@@ -41,6 +45,7 @@ public class Main3Activity extends AppCompatActivity {
                 mFalseButton9.setEnabled(false);
                 mTrueButton9.setEnabled(false);
                 mCheatButton9.setEnabled(false);
+                mSkipButton9.setEnabled(false);
                 score3++;
                 display(score3);
             }
@@ -57,7 +62,8 @@ public class Main3Activity extends AppCompatActivity {
                 mTrueButton9.setEnabled(false);
                 mFalseButton9.setEnabled(false);
                 mCheatButton9.setEnabled(false);
-                score3=score3+0;
+                mSkipButton9.setEnabled(false);
+                score3=score3-1;
                 display(score3);
             }
         });
@@ -73,6 +79,29 @@ public class Main3Activity extends AppCompatActivity {
                 mTrueButton9.setEnabled(false);
                 mFalseButton9.setEnabled(false);
                 mCheatButton9.setEnabled(false);
+                mCheatButton10.setEnabled(false);
+                mCheatButton11.setEnabled(false);
+                mCheatButton12.setEnabled(false);
+                mSkipButton9.setEnabled(false);
+                score3=score3+0;
+                display(score3);
+            }
+        });
+        mSkipButton9 = (Button) findViewById(R.id.skip_9);
+        mSkipButton9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Main3Activity.this,
+                        R.string.skip_toast,
+                        Toast.LENGTH_SHORT).show();
+                mSkipButton9.setTextColor(getResources().getColor(R.color.YELLOW));
+                mTrueButton9.setEnabled(false);
+                mFalseButton9.setEnabled(false);
+                mCheatButton9.setEnabled(false);
+                mSkipButton9.setEnabled(false);
+                mSkipButton10.setEnabled(false);
+                mSkipButton11.setEnabled(false);
+                mSkipButton12.setEnabled(false);
                 score3=score3+0;
                 display(score3);
             }
@@ -89,6 +118,7 @@ public class Main3Activity extends AppCompatActivity {
                 mTrueButton10.setEnabled(false);
                 mFalseButton10.setEnabled(false);
                 mCheatButton10.setEnabled(false);
+                mSkipButton10.setEnabled(false);
                 score3++;
                 display(score3);
             }
@@ -105,7 +135,8 @@ public class Main3Activity extends AppCompatActivity {
                 mFalseButton10.setEnabled(false);
                 mTrueButton10.setEnabled(false);
                 mCheatButton10.setEnabled(false);
-                score3=score3+0;
+                mSkipButton10.setEnabled(false);
+                score3=score3-1;
                 display(score3);
             }
         });
@@ -121,6 +152,29 @@ public class Main3Activity extends AppCompatActivity {
                 mTrueButton10.setEnabled(false);
                 mFalseButton10.setEnabled(false);
                 mCheatButton10.setEnabled(false);
+                mCheatButton9.setEnabled(false);
+                mCheatButton11.setEnabled(false);
+                mCheatButton12.setEnabled(false);
+                mSkipButton10.setEnabled(false);
+                score3=score3+0;
+                display(score3);
+            }
+        });
+        mSkipButton10 = (Button) findViewById(R.id.skip_10);
+        mSkipButton10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Main3Activity.this,
+                        R.string.skip_toast,
+                        Toast.LENGTH_SHORT).show();
+                mSkipButton10.setTextColor(getResources().getColor(R.color.YELLOW));
+                mTrueButton10.setEnabled(false);
+                mFalseButton10.setEnabled(false);
+                mCheatButton10.setEnabled(false);
+                mSkipButton10.setEnabled(false);
+                mSkipButton9.setEnabled(false);
+                mSkipButton11.setEnabled(false);
+                mSkipButton12.setEnabled(false);
                 score3=score3+0;
                 display(score3);
             }
@@ -137,6 +191,7 @@ public class Main3Activity extends AppCompatActivity {
                 mFalseButton11.setEnabled(false);
                 mTrueButton11.setEnabled(false);
                 mCheatButton11.setEnabled(false);
+                mSkipButton11.setEnabled(false);
                 score3++;
                 display(score3);
             }
@@ -153,7 +208,8 @@ public class Main3Activity extends AppCompatActivity {
                 mTrueButton11.setEnabled(false);
                 mFalseButton11.setEnabled(false);
                 mCheatButton11.setEnabled(false);
-                score3=score3+0;
+                mSkipButton11.setEnabled(false);
+                score3=score3-1;
                 display(score3);
             }
         });
@@ -169,6 +225,29 @@ public class Main3Activity extends AppCompatActivity {
                 mTrueButton11.setEnabled(false);
                 mFalseButton11.setEnabled(false);
                 mCheatButton11.setEnabled(false);
+                mCheatButton9.setEnabled(false);
+                mCheatButton10.setEnabled(false);
+                mCheatButton12.setEnabled(false);
+                mSkipButton11.setEnabled(false);
+                score3=score3+0;
+                display(score3);
+            }
+        });
+        mSkipButton11 = (Button) findViewById(R.id.skip_11);
+        mSkipButton11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Main3Activity.this,
+                        R.string.skip_toast,
+                        Toast.LENGTH_SHORT).show();
+                mSkipButton11.setTextColor(getResources().getColor(R.color.YELLOW));
+                mTrueButton11.setEnabled(false);
+                mFalseButton11.setEnabled(false);
+                mCheatButton11.setEnabled(false);
+                mSkipButton9.setEnabled(false);
+                mSkipButton10.setEnabled(false);
+                mSkipButton11.setEnabled(false);
+                mSkipButton12.setEnabled(false);
                 score3=score3+0;
                 display(score3);
             }
@@ -185,6 +264,7 @@ public class Main3Activity extends AppCompatActivity {
                 mTrueButton12.setEnabled(false);
                 mFalseButton12.setEnabled(false);
                 mCheatButton12.setEnabled(false);
+                mSkipButton12.setEnabled(false);
                 score3++;
                 display(score3);
             }
@@ -201,7 +281,8 @@ public class Main3Activity extends AppCompatActivity {
                 mTrueButton12.setEnabled(false);
                 mFalseButton12.setEnabled(false);
                 mCheatButton12.setEnabled(false);
-                score3=score3+0;
+                mSkipButton12.setEnabled(false);
+                score3=score3-1;
                 display(score3);
             }
         });
@@ -217,6 +298,29 @@ public class Main3Activity extends AppCompatActivity {
                 mTrueButton12.setEnabled(false);
                 mFalseButton12.setEnabled(false);
                 mCheatButton12.setEnabled(false);
+                mCheatButton9.setEnabled(false);
+                mCheatButton10.setEnabled(false);
+                mCheatButton11.setEnabled(false);
+                mSkipButton12.setEnabled(false);
+                score3=score3+0;
+                display(score3);
+            }
+        });
+        mSkipButton12 = (Button) findViewById(R.id.skip_12);
+        mSkipButton12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Main3Activity.this,
+                        R.string.skip_toast,
+                        Toast.LENGTH_SHORT).show();
+                mSkipButton12.setTextColor(getResources().getColor(R.color.YELLOW));
+                mTrueButton12.setEnabled(false);
+                mFalseButton12.setEnabled(false);
+                mCheatButton12.setEnabled(false);
+                mSkipButton9.setEnabled(false);
+                mSkipButton10.setEnabled(false);
+                mSkipButton11.setEnabled(false);
+                mSkipButton12.setEnabled(false);
                 score3=score3+0;
                 display(score3);
             }
