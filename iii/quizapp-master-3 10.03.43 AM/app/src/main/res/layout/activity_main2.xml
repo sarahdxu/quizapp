@@ -28,6 +28,12 @@
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
 
+        <Button
+            android:id="@+id/cheat_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat" />
+
     </LinearLayout>
 
 
@@ -53,6 +59,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
+        <Button
+            android:id="@+id/cheat_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat" />
 
     </LinearLayout>
 
@@ -78,6 +89,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
+        <Button
+            android:id="@+id/cheat_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat" />
 
     </LinearLayout>
 
@@ -103,6 +119,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
+        <Button
+            android:id="@+id/cheat_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat" />
 
     </LinearLayout>
 
