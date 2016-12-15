@@ -27,6 +27,10 @@
         </activity>
         <activity android:name=".PlayerTwoActivity">
         </activity>
+        <activity android:name=".PlayerOneActivity">
+        </activity>
+        <activity android:name=".PlayerTwo2Activity">
+        </activity>
     </application>
 
 </manifest>
