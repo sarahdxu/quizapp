@@ -8,6 +8,7 @@
     skip once per quiz, and will earn zero points. You can only cheat once per quiz, and will also
     earn zero points. If you would like to continue taking quizzes, just press the "Next quiz" button. If not, you can simply exit the app.</string>
     <string name="true_button">True</string>
+    <string name="player_2">If you are with a buddy and want to see who knows London better, have them play this round and see who can score higher!</string>
     <string name="gotit_button">Got it!</string>
     <string name="false_button">False</string>
     <string name="skip_toast">Skip</string>
@@ -37,3 +38,4 @@
     <string name="question_15">There are more American Banks in London than in NY.</string>
     <string name="question_16">One in three Londoners are foreign born.</string>
 </resources>
+
