@@ -330,7 +330,7 @@ public class Main3Activity extends AppCompatActivity {
         mNextButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Main3Activity.this, Main4Activity.class);
+                Intent intent = new Intent(Main3Activity.this, PlayerTwo2Activity.class);
                 startActivity(intent);
             }
         });
