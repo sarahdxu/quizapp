@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".StartActivity">
         </activity>
+        <activity android:name=".PlayerTwoActivity">
+        </activity>
     </application>
 
 </manifest>
